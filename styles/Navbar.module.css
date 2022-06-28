@@ -1,0 +1,89 @@
+.container {
+  background-color: white;
+  padding: 0px 40px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+
+  top: 0;
+  z-index: 999;
+  position: sticky;
+}
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.item:nth-child(2) {
+  flex: 3;
+}
+.item:last-child {
+  justify-content: flex-end;
+}
+.callButton {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+.text {
+  margin-left: 20px;
+  color: white;
+}
+.text:first-child {
+  font-size: 12px;
+  font-weight: bold;
+}
+.text:last-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+.list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: gray;
+}
+.listItem {
+  margin: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  align-items: flex-end;
+}
+.btn {
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .list {
+    flex-direction: column;
+    height: auto;
+  }
+  .item {
+    border-top: 1px solid gray;
+    margin-top: 50px;
+  }
+  .item {
+    width: 100%;
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px;
+  }
+  .btn {
+    display: block;
+  }
+  .logo {
+    display: none;
+  }
+  /* .item:nth-child(2) {
+   display: none;
+ } */
+}

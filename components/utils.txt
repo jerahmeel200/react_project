@@ -1,0 +1,71 @@
+.column {
+  float: left;
+  width: 60%;
+}
+.right {
+  width: 40%;
+  float: right;
+}
+.row {
+  text-align: center;
+}
+/* Clear floats after the columns */
+
+.input {
+  padding: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: lightgrey;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+.form {
+  margin-top: 10px;
+  width: 100%;
+  column-count: 1;
+  margin-right: 60px;
+
+  /* grid-template-columns: 1fr 1fr; creates 2 columns */
+
+  /* creates a gap between the columns and rows */
+}
+.checkbox {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.input:hover {
+  color: gray;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.button {
+  width: 80%;
+  background: #00aaef;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid transparent;
+  line-height: 40px;
+
+  border-radius: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.heading {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
