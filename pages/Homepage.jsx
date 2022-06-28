@@ -7,7 +7,10 @@ function Homepage() {
       <div className={styles.image_section}>
         <h1>big image</h1>
       </div>
-      <div></div>
+      <div className={styles.first_section}>
+        <div className={styles.picture_section}>left</div>
+        <div className={styles.writeup_section}>right</div>
+      </div>
     </div>
   );
 }
