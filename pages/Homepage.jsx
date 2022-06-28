@@ -7,6 +7,7 @@ function Homepage() {
       <div className={styles.image_section}>
         <h1>big image</h1>
       </div>
+      <div></div>
     </div>
   );
 }
